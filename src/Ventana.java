@@ -29,6 +29,7 @@ public class Ventana {
             int anio=Integer.parseInt(spiAnio.getValue().toString());
 
                 try {
+                    //xd
                     biblioteca.agregar(new Libro(isbn, titulo, autor, cat, anio));
                 } catch (Exception ex) {
                     JOptionPane.showMessageDialog(null, ex.getMessage());
